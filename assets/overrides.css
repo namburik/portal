@@ -302,3 +302,7 @@ body.dark .card-tag--data{background:rgba(6,182,212,0.13);color:#22d3ee}
 body.dark .card-tag--data-architecture{background:rgba(16,185,129,0.13);color:#34d399}
 body.dark .card-tag--cost-optimization{background:rgba(245,158,11,0.13);color:#fbbf24}
 body.dark .card-tag--operations{background:rgba(249,115,22,0.13);color:#fb923c}
+
+/* Schedule a Call button — override .blog-content a color specificity */
+.blog-content a.btn { color: #fff !important; text-decoration: none !important; }
+body.dark .blog-content a.btn { color: #0a0e1a !important; }
